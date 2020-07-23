@@ -1,5 +1,4 @@
 # Tic Tac Toe
-
 import random
 
 def drawBoard(board):
