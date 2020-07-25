@@ -13,6 +13,16 @@ le = ''
 
 self = TicTacToe(board, letter, move, bo, le)
 
+#prompting rules
+
+print('Would you like to know the rules of tic-tac-toe? (yes or no)')
+if input().lower().startswith('y'):
+    print('''Tic-Tac-Toe is a two player game where both players alternate turns placing a mark of their choice (typically O or X) on a 3x3 grid, until either:
+
+# One of the players gets 3 of their marks in a row; whether its horizontal, vertical, or diagonal. The player who gets 3 of their marks in a row wins.
+# The grid is entirely filled with marks and neither of the players have 3 marks in a row. This ends in a stalemate.
+''')
+
 while True:
     # Reset the board
     theBoard = [' '] * 10
@@ -20,6 +30,7 @@ while True:
     turn = TicTacToe.whoGoesFirst(self)
     print('The ' + turn + ' will go first.')
     gameIsAlive = True
+
 
     while gameIsAlive:
         if turn == 'player 1':
