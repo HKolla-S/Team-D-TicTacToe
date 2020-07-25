@@ -1,7 +1,7 @@
 #Main
 #This is the file to run
 
-from took import TicTacToe
+from tictactoe import TicTacToe
 
 print('Welcome to Tic Tac Toe!')
 
