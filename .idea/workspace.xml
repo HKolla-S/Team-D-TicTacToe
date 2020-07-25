@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="674abba1-627b-4ac7-8bba-280e2d37e919" name="Default Changelist" comment="rearrange player 2's turn">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe.py" afterDir="false" />
-    </list>
+    <list default="true" id="674abba1-627b-4ac7-8bba-280e2d37e919" name="Default Changelist" comment="Update drawBoard()" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +198,28 @@
       <option name="project" value="LOCAL" />
       <updated>1595699517300</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Main module">
+      <created>1595711411656</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1595711411656</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Del TicTacToe2p">
+      <created>1595711536598</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1595711536598</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update drawBoard()">
+      <created>1595711665911</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1595711665911</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +256,10 @@
     <MESSAGE value="Del @all but Class... Moved to null.txt" />
     <MESSAGE value="Del invalid imports" />
     <MESSAGE value="rearrange player 2's turn" />
-    <option name="LAST_COMMIT_MESSAGE" value="rearrange player 2's turn" />
+    <MESSAGE value="Main module" />
+    <MESSAGE value="Del TicTacToe2p" />
+    <MESSAGE value="Update drawBoard()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update drawBoard()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595710358013">
