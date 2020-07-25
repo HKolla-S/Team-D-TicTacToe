@@ -30,7 +30,7 @@ while True:
     theBoard = [' '] * 10
     player1Letter, player2Letter = TicTacToe.inputPlayerLetter(self)
     turn = TicTacToe.whoGoesFirst(self)
-    print('The ' + turn + ' will go first.')
+    print(turn + ' will go first.')
     gameIsAlive = True
 
     while gameIsAlive:

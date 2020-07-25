@@ -31,7 +31,7 @@ class TicTacToe:
         # Returns a list with the player's letter as the first item, and the computer's letter as the second.
         letter = ''
         while not (letter == 'X' or letter == 'O'):
-            print('Do you want to be X or O?')
+            print('Player 1, Do you want to be X or O?')
             letter = input().upper()
 
         # the first element in the tuple is the player's letter, the second is the computer's letter.
@@ -43,9 +43,9 @@ class TicTacToe:
     def whoGoesFirst(self):
         # Randomly choose the player who goes first.
         if random.randint(0, 1) == 0:
-            return 'player 2'
+            return 'Player 2'
         else:
-            return 'player 1'
+            return 'Player 1'
 
     def playAgain(self):
         # This function returns True if the player wants to play again, otherwise it returns False.
