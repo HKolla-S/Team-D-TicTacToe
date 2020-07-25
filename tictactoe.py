@@ -3,13 +3,14 @@ import random
 import sys
 import time
 class TicTacToe:
-    def __init__(self, board, bo, le, move, movesList, computerLetter):
+    def __init__(self, board, letter, cMove, bo, le, movesList, compLetter):
         self.board = board
+        self.letter = letter
+        self.move = cMove
         self.bo = bo
         self.le = le
-        self.move = move
         self.movesLit = movesList
-        self.computerLetter = computerLetter
+        self.computerLetter = compLetter
 
     def drawBoard(self, board):
         # This function prints out the board that it was passed.
