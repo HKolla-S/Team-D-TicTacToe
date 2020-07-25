@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="674abba1-627b-4ac7-8bba-280e2d37e919" name="Default Changelist" comment="Del invalid imports">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoe2p.py" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe2p.py" afterDir="false" />
-    </list>
+    <list default="true" id="674abba1-627b-4ac7-8bba-280e2d37e919" name="Default Changelist" comment="rearrange player 2's turn" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cs043" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Python.tictactoe2p">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -187,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595698599386</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="rearrange player 2's turn">
+      <created>1595699437967</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595699437967</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,7 +215,8 @@
     <MESSAGE value="Object-Oriented-Programming : Modified __init__ parameter" />
     <MESSAGE value="Del @all but Class... Moved to null.txt" />
     <MESSAGE value="Del invalid imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Del invalid imports" />
+    <MESSAGE value="rearrange player 2's turn" />
+    <option name="LAST_COMMIT_MESSAGE" value="rearrange player 2's turn" />
   </component>
   <component name="WindowStateProjectService">
     <state x="989" y="295" key="#tictactoe2p" timestamp="1595698872528">
