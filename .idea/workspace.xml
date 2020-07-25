@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="674abba1-627b-4ac7-8bba-280e2d37e919" name="Default Changelist" comment="Reverting unnecessary remarks to Keep Clear">
+    <list default="true" id="674abba1-627b-4ac7-8bba-280e2d37e919" name="Default Changelist" comment="Object-Oriented-Programming : Create Class TicTacToe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tictactoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595690126920</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Object-Oriented-Programming : Create Class TicTacToe">
+      <created>1595691847149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595691847149</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixing Indentation + out-of-place if&amp;else loops" />
     <MESSAGE value="Reverting unnecessary remarks to Keep Clear" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reverting unnecessary remarks to Keep Clear" />
+    <MESSAGE value="Object-Oriented-Programming : Create Class TicTacToe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object-Oriented-Programming : Create Class TicTacToe" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1595690856676">
