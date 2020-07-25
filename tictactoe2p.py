@@ -1,7 +1,5 @@
 # Tic Tac Toe
 import random
-import sys
-import time
 
 def drawBoard(board):
     # This function prints out the board that it was passed.

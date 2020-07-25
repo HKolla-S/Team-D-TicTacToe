@@ -1,7 +1,6 @@
 # Tic Tac Toe
 import random
-import sys
-import time
+
 class TicTacToe:
     def __init__(self, board, letter, cMove, bo, le, movesList, compLetter):
         self.board = board
