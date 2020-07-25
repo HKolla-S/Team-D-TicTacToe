@@ -102,8 +102,6 @@ def isBoardFull(board):
             return False
     return True
 
-# aw yeah finally no more defining
-
 print('Welcome to Tic Tac Toe!')
 
 while True:

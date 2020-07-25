@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="674abba1-627b-4ac7-8bba-280e2d37e919" name="Default Changelist" comment="Fixing Indentation + out-of-place if&amp;else loops" />
+    <list default="true" id="674abba1-627b-4ac7-8bba-280e2d37e919" name="Default Changelist" comment="Fixing Indentation + out-of-place if&amp;else loops">
+      <change beforePath="$PROJECT_DIR$/tictactoe2p.py" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe2p.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,21 +127,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="Fixing Indentation + out-of-place if&amp;else loops" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1595686849207">
+    <state width="709" height="245" key="GridCell.Tab.0.bottom" timestamp="1595690042110">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595686849207" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1595686849204">
+    <state width="709" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595690042110" />
+    <state width="709" height="245" key="GridCell.Tab.0.center" timestamp="1595690042107">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595686849204" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1595686849203">
+    <state width="709" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595690042107" />
+    <state width="709" height="245" key="GridCell.Tab.0.left" timestamp="1595690042105">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595686849203" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1595686849206">
+    <state width="709" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595690042105" />
+    <state width="709" height="245" key="GridCell.Tab.0.right" timestamp="1595690042108">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595686849206" />
+    <state width="709" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595690042108" />
   </component>
 </project>
