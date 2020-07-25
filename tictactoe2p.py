@@ -116,7 +116,6 @@ while True:
             drawBoard(theBoard)
             move = getPlayer1Move(theBoard)
             makeMove(theBoard, player1Letter, move)
-
             if isWinner(theBoard, player1Letter):
                 drawBoard(theBoard)
                 print('Player 1 has won!')
@@ -129,12 +128,11 @@ while True:
                     break
                 else:
                     turn = 'player 2'
-        else: # if it is player 2's turn
+        else:
             # Player 2's turn.
             drawBoard(theBoard)
             move = getPlayer2Move(theBoard)
             makeMove(theBoard, player2Letter, move)
-
             if isWinner(theBoard, player2Letter):
                 drawBoard(theBoard)
                 print('Player 2 has won!')
