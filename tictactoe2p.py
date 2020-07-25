@@ -134,21 +134,20 @@ while True:
                     turn = 'player 2'
         else:
             # Player 2's turn.
+            drawBoard(theBoard)
+            print('Player 2 has won!')
+            gameIsAlive = False
+            if isBoardFull(theBoard):
                 drawBoard(theBoard)
-                print('Player 2 has won!')
-                gameIsAlive = False
-            else:
-                if isBoardFull(theBoard):
-                    drawBoard(theBoard)
-                    print('The game is a tie!')
+                print('The game is a tie!')
             drawBoard(theBoard)
             move = getPlayer2Move(theBoard)
             makeMove(theBoard, player2Letter, move)
 
             if isWinner(theBoard, player2Letter):
-                    break
-                else:
-                    turn = 'player 1'
+                 break
+            else:
+                turn = 'player 1'
 
     if not playAgain():
         break
