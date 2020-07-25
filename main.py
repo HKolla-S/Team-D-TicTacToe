@@ -21,6 +21,8 @@ if input().lower().startswith('y'):
 
 # One of the players gets 3 of their marks in a row; whether its horizontal, vertical, or diagonal. The player who gets 3 of their marks in a row wins.
 # The grid is entirely filled with marks and neither of the players have 3 marks in a row. This ends in a stalemate.
+
+Good luck!
 ''')
 
 while True:
