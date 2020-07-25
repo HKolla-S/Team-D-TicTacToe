@@ -1,5 +1,5 @@
-#Main
-#This is the file to run
+# Main
+# This is the file to run
 
 from tictactoe import TicTacToe
 
@@ -13,7 +13,7 @@ le = ''
 
 self = TicTacToe(board, letter, move, bo, le)
 
-#prompting rules
+# prompting rules
 
 print('Would you like to know the rules of tic-tac-toe? (yes or no)')
 if input().lower().startswith('y'):
@@ -32,7 +32,6 @@ while True:
     turn = TicTacToe.whoGoesFirst(self)
     print('The ' + turn + ' will go first.')
     gameIsAlive = True
-
 
     while gameIsAlive:
         if turn == 'player 1':
