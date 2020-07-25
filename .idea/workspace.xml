@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="674abba1-627b-4ac7-8bba-280e2d37e919" name="Default Changelist" comment="rules prompt added ( was added in last commit but incomplete )" />
+    <list default="true" id="674abba1-627b-4ac7-8bba-280e2d37e919" name="Default Changelist" comment="Mod Delete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -238,7 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595713401583</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Mod Create">
+      <created>1595720056417</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1595720056417</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Mod Delete">
+      <created>1595720128052</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595720128052</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +294,9 @@
     <MESSAGE value="Update drawBoard()" />
     <MESSAGE value="drawBoard cosmetic changes" />
     <MESSAGE value="rules prompt added ( was added in last commit but incomplete )" />
-    <option name="LAST_COMMIT_MESSAGE" value="rules prompt added ( was added in last commit but incomplete )" />
+    <MESSAGE value="Mod Create" />
+    <MESSAGE value="Mod Delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mod Delete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="327" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595712627399">
@@ -288,6 +304,10 @@
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1595710358013" />
     <state x="327" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1595712627399" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595720096320">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1595720096320" />
     <state x="989" y="295" key="#main" timestamp="1595712638253">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
