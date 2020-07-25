@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="674abba1-627b-4ac7-8bba-280e2d37e919" name="Default Changelist" comment="Fixing Indentation + out-of-place if&amp;else loops">
-      <change beforePath="$PROJECT_DIR$/tictactoe2p.py" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe2p.py" afterDir="false" />
-    </list>
+    <list default="true" id="674abba1-627b-4ac7-8bba-280e2d37e919" name="Default Changelist" comment="Reverting unnecessary remarks to Keep Clear" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595689747204</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reverting unnecessary remarks to Keep Clear">
+      <created>1595690126920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595690126920</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,24 +129,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixing Indentation + out-of-place if&amp;else loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing Indentation + out-of-place if&amp;else loops" />
+    <MESSAGE value="Reverting unnecessary remarks to Keep Clear" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverting unnecessary remarks to Keep Clear" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="709" height="245" key="GridCell.Tab.0.bottom" timestamp="1595690042110">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1595690258080">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="709" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595690042110" />
-    <state width="709" height="245" key="GridCell.Tab.0.center" timestamp="1595690042107">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595690258080" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1595690258077">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="709" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595690042107" />
-    <state width="709" height="245" key="GridCell.Tab.0.left" timestamp="1595690042105">
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595690258077" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1595690258076">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="709" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595690042105" />
-    <state width="709" height="245" key="GridCell.Tab.0.right" timestamp="1595690042108">
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595690258076" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1595690258079">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="709" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595690042108" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595690258079" />
   </component>
 </project>
