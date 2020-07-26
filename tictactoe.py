@@ -68,15 +68,6 @@ class TicTacToe:
                 (bo[7] == le and bo[5] == le and bo[3] == le) or  # diagonal
                 (bo[9] == le and bo[5] == le and bo[1] == le))  # diagonal
 
-    def getBoardCopy(self, board):
-        # Make a duplicate of the board list and return it the duplicate.
-        dupeBoard = []
-
-        for i in board:
-            dupeBoard.append(i)
-
-        return dupeBoard
-
     def isSpaceFree(self, board, move):
         # Return true if the passed move is free on the passed board.
         return board[move] == ' '
