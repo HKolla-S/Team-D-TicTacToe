@@ -70,7 +70,7 @@ class TicTacToe:
 
     def isSpaceFree(self, board, move):
         # Return true if the passed move is free on the passed board.
-        return board[move] == ' '
+        return board[move] in ' 1 2 3 4 5 6 7 8 9 '
 
     def getPlayer1Move(self, board):
         # Let player 1 type in his move.

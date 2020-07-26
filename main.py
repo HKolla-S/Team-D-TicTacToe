@@ -5,7 +5,7 @@ from tictactoe import TicTacToe
 
 print('Welcome to Tic Tac Toe!')
 
-board = []
+board = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 letter = ''
 move = ''
 bo = ''
@@ -14,11 +14,6 @@ le = ''
 self = TicTacToe(board, letter, move, bo, le)
 
 # prompting rules
-
-theBoard = []
-for i in range(10):
-    theBoard.append(str(i))
-# TicTacToe.drawBoard(self, theBoard)
 
 print('Would you like to know the rules of tic-tac-toe? (yes or no)')
 if input().lower().startswith('y'):
@@ -31,7 +26,6 @@ Good luck!''')
 
 while True:
     # Reset the board
-    theBoard = [' '] * 10
     player1Letter, player2Letter = TicTacToe.inputPlayerLetter(self)
     turn = TicTacToe.whoGoesFirst(self)
     print(turn + ' will go first.')
@@ -40,34 +34,34 @@ while True:
     while gameIsAlive:
         if turn == 'Player 1':
             # Player 1's turn.
-            TicTacToe.drawBoard(self, theBoard)
-            move = TicTacToe.getPlayer1Move(self, theBoard)
-            TicTacToe.makeMove(self, theBoard, player1Letter, move)
-            if TicTacToe.isWinner(self, theBoard, player1Letter):
-                TicTacToe.drawBoard(self, theBoard)
+            TicTacToe.drawBoard(self, board)
+            move = TicTacToe.getPlayer1Move(self, board)
+            TicTacToe.makeMove(self, board, player1Letter, move)
+            if TicTacToe.isWinner(self, board, player1Letter):
+                TicTacToe.drawBoard(self, board)
                 print('Player 1 has won!')
                 gameIsAlive = False
                 break
             else:
-                if TicTacToe.isBoardFull(self, theBoard):
-                    TicTacToe.drawBoard(self, theBoard)
+                if TicTacToe.isBoardFull(self, board):
+                    TicTacToe.drawBoard(self, board)
                     print('The game is a tie!')
                     break
                 else:
                     turn = 'Player 2'
         else:
             # Player 2's turn.
-            TicTacToe.drawBoard(self, theBoard)
-            move = TicTacToe.getPlayer2Move(self, theBoard)
-            TicTacToe.makeMove(self, theBoard, player2Letter, move)
-            if TicTacToe.isWinner(self, theBoard, player2Letter):
-                TicTacToe.drawBoard(self, theBoard)
+            TicTacToe.drawBoard(self, board)
+            move = TicTacToe.getPlayer2Move(self, board)
+            TicTacToe.makeMove(self, board, player2Letter, move)
+            if TicTacToe.isWinner(self, board, player2Letter):
+                TicTacToe.drawBoard(self, board)
                 print('Player 2 has won!')
                 gameIsAlive = False
                 break
             else:
-                if TicTacToe.isBoardFull(self, theBoard):
-                    TicTacToe.drawBoard(self, theBoard)
+                if TicTacToe.isBoardFull(self, board):
+                    TicTacToe.drawBoard(self, board)
                     print('The game is a tie!')
                     break
                 else:
