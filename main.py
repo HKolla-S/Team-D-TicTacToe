@@ -34,7 +34,7 @@ while True:
     gameIsAlive = True
 
     while gameIsAlive:
-        if turn == 'player 1':
+        if turn == 'Player 1':
             # Player 1's turn.
             TicTacToe.drawBoard(self, theBoard)
             move = TicTacToe.getPlayer1Move(self, theBoard)
@@ -50,7 +50,7 @@ while True:
                     print('The game is a tie!')
                     break
                 else:
-                    turn = 'player 2'
+                    turn = 'Player 2'
         else:
             # Player 2's turn.
             TicTacToe.drawBoard(self, theBoard)
@@ -67,7 +67,7 @@ while True:
                     print('The game is a tie!')
                     break
                 else:
-                    turn = 'player 1'
+                    turn = 'Player 1'
 
     nNext = TicTacToe.playAgain(self)
     if not nNext.lower().startswith('y'):
