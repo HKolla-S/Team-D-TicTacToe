@@ -134,10 +134,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.takek" />
       <item itemvalue="Python.tictactoe2p" />
       <item itemvalue="Python.took" />
+      <item itemvalue="Python.takek" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
