@@ -33,7 +33,7 @@ while True:
 
     while gameIsAlive:
         if turn == 'Player 1':
-            # Player 1's turn.
+            # Player 1's turn
             self.drawBoard(board)
             move = self.getPlayer1Move(board)
             self.makeMove(board, player1Letter, move)
@@ -50,7 +50,7 @@ while True:
                 else:
                     turn = 'Player 2'
         else:
-            # Player 2's turn.
+            # Player 2's turn
             self.drawBoard(board)
             move = self.getPlayer2Move(board)
             self.makeMove(board, player2Letter, move)
