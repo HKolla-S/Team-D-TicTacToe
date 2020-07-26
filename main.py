@@ -13,7 +13,7 @@ le = ''
 
 self = TicTacToe(board, letter, move, bo, le)
 
-# prompting rules
+# Prompting rules
 
 print('Would you like to know the rules of tic-tac-toe? (yes or no)')
 if input().lower().startswith('y'):
