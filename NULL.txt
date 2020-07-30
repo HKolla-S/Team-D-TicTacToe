@@ -1,0 +1,39 @@
+TEAM D - FINAL PASS-OFF - REQUIREMENTS AND DESIGN
+
+Tic-Tac-Toe is a two player game where both players alternate turns placing a mark of their choice (typically O or X) on a 3x3 grid, until either:
+
+One of the players gets 3 of their marks in a row; whether its horizontal, vertical, or diagonal. The player who gets 3
+of their marks in a row wins.
+The grid is entirely filled with marks and neither of the players have 3 marks in a row. This ends in a stalemate.
+
+    Although fairly simple, tic-tac-toe requires some strategy and ability to think multiple moves ahead in order to
+    stalemate or win. For example, if you place a mark somewhere, you would have to think about where the best spot for
+    your next mark would be in order for you to secure a win, or where the best spot your opponent could place a mark
+    in order to prevent you from winning or to set up a win for themselves. Tic-Tac-Toe is fairly simple, and there are
+    only a few prevalent strategies and their counters.
+
+    The code of the tic tac toe program consists of two different modules; tictactoe, which contains the class TicTacToe, which is composed of 12 different functions, and the main module, which executes the game and imports functions from tictactoe. These functions consist of:
+-   __init__ which states 5 arguments, and creates a self object to initialize the class
+-  drawBoard, which prints a visual representation of the board and the moves made
+- inputPlayerLetter, which prompts player 1 which letter they want to be
+- whoGoesFirst, which randomly determines if player 1 or 2 goes first
+- playAgain, which prompts whether the player(s) want to play again after each game
+- makeMove, which takes the number/move prompted by the user and inserts it in the board list
+- isWinner, which checks certain letter orientations to check if a player has won
+- isSpaceFree, which checks if the chosen space has a letter already on it… we allowed it to display numbers as hidden print which the player can type on their turn to replace the number with their letter
+- getPlayer1Move, which prompts player 1 for a move, while checking if there is a space free, using the isSpaceFree
+- getPlayer2Move, the same as getPlayer1Move but it prompts player 2 and puts their mark
+- isBoardFull, which checks if the board is full
+At the start of the program, after the program welcomes the user, it prompts the user if they want to know the rules of
+tic tac toe, which the user can either accept or deny. After the prompt, the program starts a while loop,
+where the condition of the loop is true as long as the player keeps prompting to play again after the end of each game.
+Inside of this while loop, there is another while loop, which dictates while the game is alive, when the two players are
+playing the game. There is an if and an else function, which dictates whose turn it is. Inside of the respective if and
+else functions, there is code that calls for either player 1 or 2’s desired move. Within each of these, there are functions
+called by the self object that make the move, and demonstrate this on a printed representation of the board. After this,
+there is an if/else pair of statements that check to see if the game has ended. If it has not, it just moves to the
+initial if/else statements and swaps the players’ turns from one to another. If it has, one statement exits the secondary
+while loop, and returns either the winner of the game, or if the board is full, then it returns that the game is a tie.
+After this, there is another function called from the self object, which determines if the initial while loop should
+be exited from or not. In other words, if the player(s) want to play again.
+
